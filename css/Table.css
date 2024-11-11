@@ -1,0 +1,67 @@
+  thead input {
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  body {
+    background:url("https://tsoweb.pttplc.com/dist/images/bg-main.jpg?39d73010c82a")no-repeat center center/cover fixed;
+    font-family: Arial, sans-serif;
+  }
+  table {
+    text-align: center;
+  }
+  .thder{
+    font-size:12px;
+  }
+  .table-container {
+    margin: 15px 15px 15px 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px 0px 20px 0px;
+    overflow-x: scroll;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  a{
+  text-decoration: none !important;
+  }
+  table th,
+  table td {
+    white-space: nowrap;
+    padding: 10px 20px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  table tr th:first-child,
+  table td:first-child {
+    position: sticky;
+    width: 100px;
+    left: 0;
+    z-index: 10;
+    background: #FFFACD;
+  }
+  
+  table tr th:first-child {
+    z-index: 11;
+  }
+  #first{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background: #FFFACD;
+  }
+  #mma{
+    background: #FFFACD;
+  }
+  .TAG{
+    padding-left: 20px;
+    color: #ffffff !important;
+  }
+  .text-edit{
+    position: relative;
+    margin-top:8px;
+    text-align: -webkit-left;
+  }
+  .input-header{
+    position: relative;
+    text-align: right;
+  }
